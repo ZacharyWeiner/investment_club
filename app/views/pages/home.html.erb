@@ -1,0 +1,156 @@
+
+
+    <!-- Page Wrapper -->
+      <div id="page-wrapper">
+
+        <!-- Header -->
+          <header id="header" class="alt">
+            <h1><a href="index.html">CKR3W Investment Club</a></h1>
+            <nav id="nav">
+              <ul>
+                <li class="special">
+                  <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                  <div id="menu">
+                    <ul>
+                     <!--  <li><a href="index.html">Home</a></li>
+                      <li><a href="generic.html">Generic</a></li>
+                      <li><a href="elements.html">Elements</a></li> -->
+                      <li><a href="#">Sign Up</a></li>
+                        <% if user_signed_in? %>
+                        <li>
+                        <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+                        </li>
+                      <% else %>
+                        <li>
+                        <%= link_to('Login', new_user_session_path)  %>
+                        </li>
+                      <% end %>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+        <!-- Banner -->
+          <section id="banner">
+            <div class="inner">
+              <h2>CKR3W Investment Club</h2>
+              <p>Primarly A Crypto Investment Club<br />
+              <ul class="actions">
+                <li><a href="#" class="button special">Sign Up</a></li>
+              </ul>
+            </div>
+            <a href="#one" class="more scrolly">Learn More</a>
+          </section>
+
+        <!-- One -->
+          <section id="one" class="wrapper style1 special">
+            <div class="inner">
+              <header class="major">
+                <h2>We Invest Based On Fundamentals and Technicals<br />
+                </h2>
+                <p>BitCoin, Ether, LiteCoin, BTC Forks, &amp; AltCoins<br />
+                We May Invest In Select ICO's </p>
+              </header>
+              <ul class="icons major">
+                <li><span class="icon fa-bitcoin major style1"><span class="label">BitCoin</span></span></li>
+                <li><span class="icon fa-dollar major style2"><span class="label">Cash</span></span></li>
+                <li><span class="icon fa-euro major style3"><span class="label">Currency</span></span></li>
+              </ul>
+            </div>
+          </section>
+
+        <!-- Two -->
+          <section id="two" class="wrapper alt style2">
+            <section class="spotlight">
+              <div class="image"><img src="https://www.crypto-economy.net/wp-content/uploads/2017/12/Blockchain-1.jpg" alt="" /></div><div class="content">
+                <h2>Blockchain<br />
+                </h2>
+                <p>Identifying the code, merit, and teams behind new blockchain technologies. </p>
+              </div>
+            </section>
+            <section class="spotlight">
+              <div class="image"><img src="https://www.bitcointrading.life/wp-content/uploads/2017/09/stocks-or-crypto-which-has-great-future-678x381.jpg" alt="" /></div><div class="content">
+                <h2>Crypto Stocks<br />
+                </h2>
+                <p> We will explore opportunities to inviest in index listed companies that benefit directly from crypto or blockchain.</p>
+              </div>
+            </section>
+            <section class="spotlight">
+              <div class="image"><img src="https://betterthings2do.files.wordpress.com/2014/04/stock-chart-blue.png" alt="" /></div><div class="content">
+                <h2>Arbitrage<br />
+                </h2>
+                <p>Identifying opportunities to take very little risk trading price differences across indexes.</p>
+              </div>
+            </section>
+          </section>
+
+        <!-- Three -->
+          <section id="three" class="wrapper style3 special">
+            <div class="inner">
+              <header class="major">
+                <h2>Quarterly Payout</h2>
+                <p>Earnings / Dividends paid out quarterly with option to re-invest.</p>
+              </header>
+              <ul class="features">
+                <li class="icon fa-compress">
+                  <h3>Low Entry Fees</h3>
+                  <p>One Time membership fee to contribute to club oppearions. Website, Accountant, etc...</p>
+                </li>
+                <li class="icon fa-arrow-down">
+                  <h3>Low Monthly Contribution</h3>
+                  <p>$50 minimum monthly investment contribution </p>
+                </li>
+                <li class="icon fa-pie-chart">
+                  <h3>1/2 Long Term</h3>
+                  <p>A major part of our portfolio is identifying opporunities to get in early on crypto &amp; blockchain</p>
+                </li>
+                <li class="icon fa-area-chart">
+                  <h3>1/2 Active Investing</h3>
+                  <p>From ICOs, to being listed on major exchanges we will identify short term opportunities to profit.</p>
+                </li>
+                <li class="icon fa-bar-chart">
+                  <h3>Fundamentals</h3>
+                  <p>All investments will be chosen on the merit of the underlying technoliges. While there are many coins on the market today CKr3w will only take short or long term positions in companies with sound technology and finance fundamentals.</p>
+                </li>
+                <li class="icon fa-line-chart">
+                  <h3>Technicals</h3>
+                  <p>Short and mid term invesments can be triggered based on Price Action or Technical indicators. </p>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+        <!-- CTA -->
+          <!-- <section id="cta" class="wrapper style4">
+            <div class="inner">
+              <header>
+                <h2>Arcue ut vel commodo</h2>
+                <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+              </header>
+              <ul class="actions vertical">
+                <li><a href="#" class="button fit special">Activate</a></li>
+                <li><a href="#" class="button fit">Learn More</a></li>
+              </ul>
+            </div>
+          </section> -->
+
+        <!-- Footer -->
+          <footer id="footer">
+            <ul class="icons">
+              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+              <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+              <li>&copy; CKr3W Crypto Club</li></li>
+            </ul>
+          </footer>
+
+      </div>
+
+
+
